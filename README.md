@@ -107,7 +107,7 @@ parser.add_argument('--data_dir', type=str, default='data/mini-ImageNet')
 
 # the trained model weights are loaded from the specified "model_dir"
 parser.add_argument('--model_dir', type=str,
- default='ImageNet_LT_cifar10_resnext50_32x4d_normout_rsg_ldam_supcon')
+ default='ImageNet_LT_CIFAR10_resnext50_32x4d_normout_rsg_ldam_supcon')
 ```
 
 
