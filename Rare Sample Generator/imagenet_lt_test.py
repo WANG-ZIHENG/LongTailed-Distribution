@@ -20,7 +20,7 @@ parser.add_argument('-b', '--batch-size', default=256, type=int,
                     help='mini-batch size')
 parser.add_argument('--gpu', default=0, type=int,
                     help='GPU id to use.')
-parser.add_argument('--data_dir', type=str, default='data/mine')
+parser.add_argument('--data_dir', type=str, default='data/mini-ImageNet')
 parser.add_argument('--checkpoint_dir', type=str, default='./checkpoint')
 parser.add_argument('--log_dir', type=str, default='./log')
 parser.add_argument('--model_dir', type=str,
@@ -118,7 +118,7 @@ if __name__ == "__main__":
         overall_acc += acc
         total_num += len(label.cpu())
 
-    if dataset == 'mine':
+    if dataset == 'mini-ImageNet':
         many_shot_thr = 100
         low_shot_thr = 20
     else:
