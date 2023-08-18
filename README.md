@@ -120,7 +120,7 @@ parser.add_argument('--model_dir', type=str,
 
 * Rombach R, Blattmann A, Lorenz D, et al. High-resolution image synthesis with latent diffusion models[C]//Proceedings of the IEEE/CVF conference on computer vision and pattern recognition. 2022: 10684-10695.
 
-      [Stable Diffusion](https://huggingface.co/runwayml/stable-diffusion-v1-5)
+  [Stable Diffusion](https://huggingface.co/runwayml/stable-diffusion-v1-5)
 
 * Lin T Y, Goyal P, Girshick R, et al. Focal loss for dense object detection[C]//Proceedings of the IEEE international conference on computer vision. 2017: 2980-2988.
 
